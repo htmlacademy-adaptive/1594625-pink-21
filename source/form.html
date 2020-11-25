@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+</head>
+<body class="page-body">
+    <header class="main-header">
+        <a class="main-header-logo">
+                          <img src=https://via.placeholder.com/150x150 alt="Логотип Пинк">
+                      </a>
+        <div class="main-nav">
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        </div>
+        <nav class="site-navigation">
+            <div class="site-navigation__wrapper">
+                <ul class="site-navigation__list site-list">
+                    <li class="site-list__item site-list__item--active"><a href="#">Главная</a></li>
+                    <li class="site-list__item"><a href="#">Фотографии</a></li>
+                    <li class="site-list__item"><a href="#">Конкурс</a></li>
+                    <li class="site-list__item"><a href="#">HTML Academy</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <div class="contest">
+            Конкурс на самое безбашенное путешествие с Пинк
+        </div>
+        <div class="history">
+            Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
+        </div>
+        <section class="data">
+            <h2>Информация пользователя</h2>
+            <div>
+                <label for="login-surname">Фамилия</label>
+                <input id="login-surname" type="text" name="surname" placeholder="Укажите фамилию *">
+            </div>
+            <div>
+                <label for="login-name">Имя</label>
+                <input id="login-name" type="text" name="name" placeholder="Введите ваше имя *">
+            </div>
+            <div>
+                <label for="login-middle">Отчество</label>
+                <input id="login-middle" type="text" name="middle" placeholder="Ну и отчество тоже">
+            </div>
+        </section>
+        <section class="choice">
+            <h2>Достижеине</h2>
+            <fieldset>
+                <legend>Ваши безбашенные достижения в путешествии</legend>
+                <ul class="choice__item">
+                    <li class="choice__description">
+                        <input type="checkbox" name="selfie" id="filter-selfie" checked>
+                        <label for="filter-selfie">Сделал селфи с акулой</label>
+                    </li>
+                    <li class="choice__description">
+                        <input type="checkbox" name="sunburned" id="filter-sunburned" checked>
+                        <label for="filter-sunburned">Обгорел на пляже</label>
+                    </li>
+                    <li class="choice__description">
+                        <input type="checkbox" name="chuck" id="filter-chuck">
+                        <label for="filter-chuck">Видел Чака Норриса</label>
+                    </li>
+                    <li class="choice__description">
+                        <input type="checkbox" name="souvenirs" id="filter-souvenirs">
+                        <label for="filter-souvenirs">Накупил сувениров</label>
+                    </li>
+                    <li class="choice__description">
+                        <input type="checkbox" name="tower" id="filter-tower" checked>
+                        <label for="filter-tower">Удержал башню</label>
+                    </li>
+                    <li class="choice__description">
+                        <input type="checkbox" name="hotel" id="filter-hotel">
+                        <label for="filter-hotel">Разгромил отель</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section class="communication">
+            <h2>Способ связаться</h2>
+            <div>
+                <label for="login-phone">НОМЕР ТЕЛЕФОНА</label>
+                <input id="login-phone" type="tel" name="phone" placeholder="Номер, пожалуйста">
+            </div>
+            <div>
+                <label for="login-login">АДРЕС ПОЧТЫ</label>
+                <input id="login-login" type="email" name="mail" placeholder="Введите почту *">
+            </div>
+        </section>
+        <section class="application">
+            <h2>Какое приложение</h2>
+            <fieldset>
+                <legend>С каким приложением путешествовали?</legend>
+                <ul class="application__extra">
+                    <li class="application__option ">
+                        <input type="radio" name="product-group" value="ios" id="filter-ios" checked>
+                        <label for="filter-ios">Pink для iOS</label>
+                    </li>
+                    <li class="application__option ">
+                        <input type="radio" name="product-group" value="Android" id="filter-Android">
+                        <label for="filter-Android">Pink на Android</label>
+                    </li>
+                    <li class="application__option ">
+                        <input type="radio" name="product-group" value="windows" id="filter-windows">
+                        <label for="filter-windows">Windows Phone</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section class="description">
+            <h2>Напиши нам</h2>
+            <div>
+                <label for="login-text-one">ОПИШИТЕ СВОИ ЭМОЦИИ</label><br>
+                <textarea id="login-text-one" name="text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            </div>
+            <button type="submit">Отправить форму</button>
+            <p>* — обязательные поля</p>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer__logo"><img src="img/glasses.svg" width="59" height="40" alt="лого"><img src="img/pink22.svg" width="74" height="23" alt="пинк"></div>
+        <a class="main-footer__link" href="#">twitter</a>
+        <a class="main-footer__link" href="#">facebook</a>
+        <a class="main-footer__link" href="#">youtube</a>
+        <div class="main-footer__me">Разработано</div>
+    </footer>
+</body>
+</html>
