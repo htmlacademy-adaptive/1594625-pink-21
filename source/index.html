@@ -4,102 +4,122 @@
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
 </head>
-<body class="page-body" bgcolor="#E5E5E5">
+<body class="page-body">
     <header class="main-header">
-        <div class="content-one">
-            <div class="main-header-one">
-                <a class="main-header-logo">
-                          <img src="img/pink.svg" width="147" height="40" 
-                          alt="Логотип Пинк">
+        <a class="main-header-logo">
+                          <img src=https://via.placeholder.com/150x150 alt="Логотип Пинк">
                       </a>
-            </div>
-            <nav class="main-navigation">
-                <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-                <div class="site-navigation-wrapper">
-                    <ul class="site-navigation">
-                        <li class="site-navigation-normal"><a href="#">Главная</a></li>
-                        <li class="site-navigation-normal"><a href="#">Фотографии</a></li>
-                        <li class="site-navigation-normal"><a href="#">Конкурс</a></li>
-                        <li class="site-navigation-normal"><a href="#">HTML Academy</a></li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="main-nav">
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         </div>
+        <nav class="site-navigation">
+            <div class="site-navigation__wrapper">
+                <ul class="site-navigation__list site-list">
+                    <li class="site-list__item site-list__item--active"><a href="#">Главная</a></li>
+                    <li class="site-list__item"><a href="#">Фотографии</a></li>
+                    <li class="site-list__item"><a href="#">Конкурс</a></li>
+                    <li class="site-list__item"><a href="#">HTML Academy</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main class="content">
-        <h1 class="visually-hidden">Приложение Пинк</h1>
+        <h1>Приложение Пинк</h1>
         <section class="achievement">
-            <h2 class="visually-hidden"> Где скачать это приложение</h2>
-            <div class="content-one">
-                <h3> Взгляните на жизнь иначе!</h3>
-            </div>
+            <h2> Где скачать это приложение</h2>
+            <h3> Взгляните на жизнь иначе!</h3>
             <img src="img/phone.png" width="320" height="286" alt="телефон"><br>
-            <a class="download" href="#">Скачать приложение</a><br>
-            <a class="download-apple" href="#">
-  <img src="https://via.placeholder.com/150x150" alt="apple">
-</a>
-            <a class="download-android" href="#">
-  <img src="https://via.placeholder.com/150x150" alt="android">
-</a>
-            <a class="download-windows" href="#">
-  <img src="https://via.placeholder.com/150x150" alt="windows">
-</a>
-            <div class="content-two">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8 </div>
+            <a href="#">Скачать приложение</a><br>
+            <div class="achievement__platform">
+                <a href="#"><img src="https://via.placeholder.com/150x150" alt="apple"></a>
+                <a href="#"><img src="https://via.placeholder.com/150x150" alt="android"></a>
+                <a href="#"><img src="https://via.placeholder.com/150x150" alt="windows"></a>
+            </div>
+            <div class="achievement__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8 </div>
         </section>
         <section class="priorities">
-            <h2 class="visually-hidden">Плюсы приложения </h2>
-            <h3 class="priorities-one">
-                Устали от серости мегаполиса?<br> Нам есть, что вам предложить!
-            </h3>
-            <div class="priorities-one">Поднимает настроение</div>
-            <div class="priorities-two">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</div>
-            <div class="priorities-one">Меняет мир вокруг</div>
-            <div class="priorities-two">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</div>
-            <div class="priorities-one">Заводит новых друзей</div>
-            <div class="priorities-two">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</div>
+            <h2>Плюсы приложения </h2>
+            <h3>Устали от серости мегаполиса?<br> Нам есть, что вам предложить!</h3>
+            <ul class="priorities__title">
+                <li class="priorities__description">
+                    <h4>Поднимает настроение</h4>
+                    <p>Поднимает настроение</p>
+                </li>
+                <li class="priorities__description">
+                    <h4>Меняет мир вокруг</h4>
+                    <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+                </li>
+                <li class="priorities__description">
+                    <h4>Заводит новых друзей</h4>
+                    <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+                </li>
+            </ul>
             <img src="img/iphone3.png" width="157" height="320" alt="телефон">
         </section>
         <section class="reviews">
-            <h2 class="visually-hidden">Отзывы </h2>
-            <div class="reviews-one">Николай Петров</div>
-            <div class="reviews-two">«Это приложение перевернуло мой мир<br> и позволило по-новому взглянуть на<br> привычные серые вещи! А еще я<br> познакомился со своей будущей женой<br> в комментариях к выложенной<br> фотографии!»</div>
-            <div class="reviews-navigation ">
-                <button class="reviews-slide " type="button">слайд 1</button>
-                <button class="reviews-slide " type="button">слайд 2</button>
-                <button class="reviews-slide " type="button">слайд 3</button>
+            <h2>Отзывы </h2>
+            <div class="reviews__name">Николай Петров</div>
+            <blockquote class="reviews__speech">«Это приложение перевернуло мой мир<br> и позволило по-новому взглянуть на<br> привычные серые вещи! А еще я<br> познакомился со своей будущей женой<br> в комментариях к выложенной<br> фотографии!»</blockquote>
+            <div class="reviews__navigation ">
+                <button class="reviews__slide reviews__slide--active" type="button">слайд 1</button>
+                <button class="reviews__slide" type="button">слайд 2</button>
+                <button class="reviews__slide" type="button">слайд 3</button>
             </div>
         </section>
         <section class="catalog">
-            <h2 class="visually-hidden">Каталог пакетов услуг </h2>
-            <div class="catalog-one">СТАНДАРТ</div>
-            <div class="catalog-two">3,99 USD</div>
-            <div class="reviews-three">Розовый фильтр</div>
-            <div class="reviews-three">Смайлики</div>
-            <div class="reviews-three">Комментарии</div>
-            <div class="reviews-navigation ">
-                <button class="reviews-slide " type="button">слайд 1</button>
-                <button class="reviews-slide " type="button">слайд 2</button>
-                <button class="reviews-slide " type="button">слайд 3</button>
+            <h2>Каталог пакетов услуг </h2>
+            <div class="catalog__wrapper">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>База<br> 1,99 USD</td>
+                        <td>Стандарт<br> 3,99 USD</td>
+                        <td>Анлим<br> 9,99 USD</td>
+                    </tr>
+                    <tr>
+                        <td>Розовый фильтр</td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="галочка"></td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="галочка"></td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="галочка"></td>
+                    </tr>
+                    <tr>
+                        <td>Смайлики</td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="крест"></td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="галочка"></td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="галочка"></td>
+                    </tr>
+                    <tr>
+                        <td>Комментарии</td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="крест"></td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="крест"></td>
+                        <td><img src=https://via.placeholder.com/150x150 alt="галочка"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="catalog__press">
+                <button class="catalog__slide " type="button">слайд 1</button>
+                <button class="catalog__slide catalog__slide--active" type="button">слайд 2</button>
+                <button class="catalog__slide " type="button">слайд 3</button>
             </div>
         </section>
         <section class="route">
-            <h2 class="visually-hidden">Контактные данные </h2>
-            <h3 class="route-one">Остались вопросы?<br> Свяжитесь с нами!</h2>
-                <div class="route-two">Звоните:</div>
-                <div class="route-three">+7 (812) 555-66-66</div>
-                <div class="route-two">Пишите:</div>
-                <div class="route-three">mail@htmlacademy.ru</div>
-                <div class="route-two">Приезжайте в гости:</div>
-                <div class="route-three">ул. Большая<br> Конюшенная, 19/8</div>
-                <img src="https://via.placeholder.com/150x150" alt="карта">
+            <h2>Контактные данные </h2>
+            <h3>Остались вопросы?<br> Свяжитесь с нами!</h3>
+            <div class="route__bell">Звоните:</div>
+            <a class="route__number" href="#">+7 (812) 555-66-66</a>
+            <div class="route__bell">Пишите:</div>
+            <a class="route__number" href="#">mail@htmlacademy.ru</a>
+            <div class="route__bell">Приезжайте в гости:</div>
+            <div class="route__number">ул. Большая<br> Конюшенная, 19/8</div>
+            <img src="https://via.placeholder.com/150x150" alt="карта">
         </section>
     </main>
     <footer class="main-footer">
-        <div class="main-two"><img src="img/glasses.svg" width="59" height="40" alt="лого"><img src="img/pink22.svg" width="74" height="23" alt="пинк"></div>
-        <a class="network" href="#">twitter</a>
-        <a class="network-link" href="#">facebook</a>
-        <a class="network-link" href="#">youtube</a>
-        <div class="main-three">Разработано</div>
+        <div class="main-footer__logo"><img src="img/glasses.svg" width="59" height="40" alt="лого"><img src="img/pink22.svg" width="74" height="23" alt="пинк"></div>
+        <a class="main-footer__link" href="#">twitter</a>
+        <a class="main-footer__link" href="#">facebook</a>
+        <a class="main-footer__link" href="#">youtube</a>
+        <div class="main-footer__me">Разработано</div>
     </footer>
 </body>
 </html>
