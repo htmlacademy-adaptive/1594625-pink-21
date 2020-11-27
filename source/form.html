@@ -30,15 +30,17 @@
         <div class="history">
             Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!
         </div>
+        
         <section class="data">
             <h2>Информация пользователя</h2>
+            <form  method="get" action="https://echo.htmlacademy.ru">
             <div>
                 <label for="login-surname">Фамилия</label>
-                <input id="login-surname" type="text" name="surname" placeholder="Укажите фамилию *">
+                <input id="login-surname" type="text" name="surname" placeholder="Укажите фамилию *" required>
             </div>
             <div>
                 <label for="login-name">Имя</label>
-                <input id="login-name" type="text" name="name" placeholder="Введите ваше имя *">
+                <input id="login-name" type="text" name="name" placeholder="Введите ваше имя *" required>
             </div>
             <div>
                 <label for="login-middle">Отчество</label>
@@ -85,7 +87,7 @@
             </div>
             <div>
                 <label for="login-login">АДРЕС ПОЧТЫ</label>
-                <input id="login-login" type="email" name="mail" placeholder="Введите почту *">
+                <input id="login-login" type="email" name="mail" placeholder="Введите почту *" required>
             </div>
         </section>
         <section class="application">
@@ -115,6 +117,7 @@
                 <textarea id="login-text-one" name="text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </div>
             <button type="submit">Отправить форму</button>
+        </form>
             <p>* — обязательные поля</p>
         </section>
     </main>
